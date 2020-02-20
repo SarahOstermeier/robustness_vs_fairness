@@ -30,3 +30,12 @@ Getting started with implementations
 1. Find dataset
 2. Set up AWS/Google Cloud
 3. Decide on baseline models
+
+#### Usefull Links:
+Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
+
+Resnet Pretrained Pytorch:
+https://pytorch.org/docs/stable/torchvision/models.html
+
+Resnet with Adversarial training example
+https://github.com/JZ-LIANG/Ensemble-Adversarial-Training
