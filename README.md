@@ -30,3 +30,6 @@ Getting started with implementations
 1. Find dataset
 2. Set up AWS/Google Cloud
 3. Decide on baseline models
+
+
+https://www.kaggle.com/jangedoo/utkface-new
