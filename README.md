@@ -31,7 +31,25 @@ Getting started with implementations
 2. Set up AWS/Google Cloud
 3. Decide on baseline models
 
-#### Usefull Links:
+## Week of Feb 23rd
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+10
+#### What did we accomplish from last week's tasks?
+We found a dataset of face images to use for our models, and decided to use Resnet as our base model.  Resnet can be imported pretrained
+from Pytorch, so we plan to use this as our implementation approach.  We also found an example implementation of Resnet with adversarial
+training, which we can use to guide our approach.
+
+#### What problems or concerns do we have?
+We are concerned about figuring out how to run our models on AWS or google cloud.
+
+#### What do we plan to accomplish do over the next week?
+We will figure out how to run our baseline model on either AWS or google cloud, and ensure that we can get it working.  If we have time, 
+we will also begin to put together our adversarial model.
+
+
+
+### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
 
 Resnet Pretrained Pytorch:
@@ -39,3 +57,4 @@ https://pytorch.org/docs/stable/torchvision/models.html
 
 Resnet with Adversarial training example
 https://github.com/JZ-LIANG/Ensemble-Adversarial-Training
+
