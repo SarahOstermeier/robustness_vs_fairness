@@ -47,7 +47,18 @@ We are concerned about figuring out how to run our models on AWS or google cloud
 We will figure out how to run our baseline model on either AWS or google cloud, and ensure that we can get it working.  If we have time, 
 we will also begin to put together our adversarial model.
 
+## Week of March 1st
 
+#### On a scale of 1-10, how do we rate our progress over the past week?
+5
+#### What did we accomplish from last week's tasks?
+We've spent time trying to set up AWS and google cloud, but have been running into problems, which we were not able to resolve given our time limitations over the past week
+
+#### What problems or concerns do we have?
+We are concerned about figuring out how to run our models on AWS or google cloud.
+
+#### What do we plan to accomplish do over the next week?
+We've decided to split our work.  One of us will figure out logistics of setting up a cloud environment for our project, while the other begins work on a toy version of our models.  
 
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
