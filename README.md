@@ -69,3 +69,6 @@ https://pytorch.org/docs/stable/torchvision/models.html
 Resnet with Adversarial training example
 https://github.com/JZ-LIANG/Ensemble-Adversarial-Training
 
+How to run jupyter notebooks on google cloud
+https://tudip.com/blog-post/run-jupyter-notebook-on-google-cloud-platform/
+
