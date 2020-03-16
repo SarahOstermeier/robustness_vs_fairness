@@ -60,6 +60,19 @@ We are concerned about figuring out how to run our models on AWS or google cloud
 #### What do we plan to accomplish do over the next week?
 We've decided to split our work.  One of us will figure out logistics of setting up a cloud environment for our project, while the other begins work on a toy version of our models.  
 
+## Week of March 8th
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+10
+#### What did we accomplish from last week's tasks?
+Got virtual machine running on google cloud. Have begun work on base and adversarial models.  
+
+#### What problems or concerns do we have?
+No real concerns at this time
+
+#### What do we plan to accomplish do over the next week?
+We will continue to develop our models and test them over the next week 
+
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
 
