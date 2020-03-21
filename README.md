@@ -73,6 +73,21 @@ No real concerns at this time
 #### What do we plan to accomplish do over the next week?
 We will continue to develop our models and test them over the next week 
 
+
+## Week of March 15th
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+10
+#### What did we accomplish from last week's tasks?
+We got our first training running on the baseline and robust models
+
+#### What problems or concerns do we have?
+Somehow, the out of sample accuracy improved after running our adversarial models. There might be some bugs in our code. 
+
+#### What do we plan to accomplish do over the next week?
+Check where the bugs could lie
+Create imbalanced dataset based on race, and run our models to see if the performance changes
+
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
 
