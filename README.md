@@ -88,6 +88,9 @@ Somehow, the out of sample accuracy improved after running our adversarial model
 Check where the bugs could lie
 Create imbalanced dataset based on race, and run our models to see if the performance changes
 
+## Mid-March Report
+We successfully trained a baseline Resnet and an adversarially trained model on a gender classification task on the UKTface dataset.  After training, we compared test accuracy for each race subgroup.  Although we had predicted that a more robust (adversarially trianed) model may decrease accuracy in smaller subgroups, this initial test indicates otherwise.  In fact, our adversarially trained model performed with a higher accuracy in all subgroups compared to the baseline model.  To further investigate this result, we plan to retrain with an imbalanced dataset, such that each subgroup is about 5% the size of the majority group.  We will also train models to predict age and test under the same conditions.  
+
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
 
