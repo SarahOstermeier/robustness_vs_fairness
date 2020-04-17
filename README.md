@@ -116,6 +116,9 @@ The adversarily trianed model improves robust accuracy but may worsen the standa
 https://arxiv.org/pdf/1705.07204.pdf
 The model we use for our adversarial training. It uses *static* learned model to generate adverasarial samples. 
 
+### Mitigating Unwanted Biases with Adversarial Learning
+http://m-mitchell.com/papers/Adversarial_Bias_Mitigation.pdf
+Uses a method called adversarial debiasing to train a deep learning model to accurately predict an output Y, given input X, while remaining unbiased with respect to variable Z (the "protected variable")
 
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
