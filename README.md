@@ -105,6 +105,18 @@ Somehow again, the fairness improved after the adversarial training
 Try with other minority races
 Think about the reasons why adversarial training improved the fairness.
 
+
+## Literature Reviews
+
+### Adversarial Training Can Hurt Generalization
+https://openreview.net/pdf?id=SyxM3J256E
+The adversarily trianed model improves robust accuracy but may worsen the standard accuracy. The authors argue that this is due to lack of generalization and maybe solved by increasing the sample size
+
+### ENSEMBLE ADVERSARIAL TRAINING: ATTACKS AND DEFENSES
+https://arxiv.org/pdf/1705.07204.pdf
+The model we use for our adversarial training. It uses *static* learned model to generate adverasarial samples. 
+
+
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
 
