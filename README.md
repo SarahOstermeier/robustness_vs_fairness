@@ -99,11 +99,17 @@ We successfully trained a baseline Resnet and an adversarially trained model on 
 We tried our model on the imbalanced dataset with 10000 white and 500 black
 
 #### What problems or concerns do we have?
-Somehow again, the fairness improved after the adversarial training 
+Somehow again, the fairness improved after the adversarial training for some of the minority groups
+| VS                | White vs Black | White vs Asian | White vs Indian | White vs Others |
+|-------------------|----------------|----------------|-----------------|-----------------|
+| standard          | 79% vs 74%     | 81%  vs 69%    | 80% vs 81%      | 79% vs 77%      |
+| adversarial (FSG) | 67% vs 53%     | 67% vs 70%     | 68% vs 71%      | 60% vs 58%      |
+
 
 #### What do we plan to accomplish do over the next week?
 Try with other minority races
 Think about the reasons why adversarial training improved the fairness.
+Try with different types attacks
 
 
 ## Literature Reviews
@@ -116,6 +122,13 @@ The adversarily trianed model improves robust accuracy but may worsen the standa
 https://arxiv.org/pdf/1705.07204.pdf
 The model we use for our adversarial training. It uses *static* learned model to generate adverasarial samples. 
 
+### https://www.fatml.org/media/documents/achieving_fairness_through_adversearial_learning.pdf
+https://www.fatml.org/media/documents/achieving_fairness_through_adversearial_learning.pdf
+Uses adversarial training to improve fairness. Assume that we have some subset of dataset with race attribute known.
+We train 2 models simultaneouly which try to predict the label(gender) and the race attribute.
+$f(g(x)) = y $
+$a(g(x)) = z$
+where y is the label (gender) and z is the partially hidden attribute(race). The goal is for f and a to predict y and z accurately. But we also try to make g harder for a to predict z. Note that g is the embedding layer used for both functions.
 
 ### Usefull Links:
 Face Dataset:  https://www.kaggle.com/jangedoo/utkface-new
